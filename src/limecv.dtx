@@ -1745,7 +1745,7 @@ Dear Miss.\ Smith
 %    \begin{macrocode}
 \NewDocumentEnvironment{cvProfile}{}{%
   \vspace{\cvSectionSBSep}
-  \ruleline{Profile}
+  \ruleline{Profil}
 }{%
 }
 %    \end{macrocode}
@@ -1773,7 +1773,7 @@ Dear Miss.\ Smith
 \newif\ifcv@contactfirst
 \NewDocumentEnvironment{cvContact}{}{%
   \vspace{\cvSectionSBSep}
-  \ruleline{Contact}%
+  \ruleline{Kontakt}%
   \vspace{\cvSectionSBSep}
   
   \global\cv@contactfirstfalse
@@ -1918,11 +1918,11 @@ Dear Miss.\ Smith
 % define new commands
 %    \begin{macrocode}
   \NewDocumentCommand{\cvInterestsPersonal}{}{%
-    \cv@interestSection{\faUser\ \emph{Personal}}}
+    \cv@interestSection{\faUser\ \emph{Persönlich}}}
 %    \end{macrocode}
 %    \begin{macrocode}
   \NewDocumentCommand{\cvInterestsProfessional}{}{%
-    \cv@interestSection{\faBriefcase\ \emph{Professional}}}
+    \cv@interestSection{\faBriefcase\ \emph{Beruflich}}}
 %    \end{macrocode}
 %    \begin{macrocode}
   \ifcv@interestLong
@@ -2348,4 +2348,3 @@ Dear Miss.\ Smith
 %
 % \Finale
 \endinput
-
