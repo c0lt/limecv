@@ -1436,7 +1436,7 @@ Dear Miss.\ Smith
 %
 %    \begin{macrocode}
 \NewDocumentEnvironment{cvEducation}{}{%
-    \cv@Title{Education}{\faGraduationCap}
+    \cv@Title{Bildungsweg}{\faGraduationCap}
 %    \end{macrocode}
 % insures uniqueness
 %    \begin{macrocode}
@@ -1456,7 +1456,7 @@ Dear Miss.\ Smith
 %
 %    \begin{macrocode}
 \NewDocumentEnvironment{cvExperience}{}{%
-  \cv@Title{Experience}{\faBriefcase}
+  \cv@Title{Praktische Kenntnisse}{\faBriefcase}
 %    \end{macrocode}
 % insures uniqueness
 %    \begin{macrocode}
@@ -1476,7 +1476,7 @@ Dear Miss.\ Smith
 %
 %    \begin{macrocode}
 \NewDocumentEnvironment{cvSkills}{}{%
-  \cv@Title{Skills}{\faStar}
+  \cv@Title{Kenntnisse}{\faStar}
   \global\cv@firstskilltrue
 }{%
   \node[
@@ -1497,7 +1497,7 @@ Dear Miss.\ Smith
 %
 %    \begin{macrocode}
 \NewDocumentEnvironment{cvReferences}{}{%
-  \cv@Title{References}{\faLink}
+  \cv@Title{Referenzen}{\faLink}
   \node[
     below=\cvSectionSep of cv@title \the\value{cv@titlePrev}.%
       south west,
@@ -1932,7 +1932,7 @@ Dear Miss.\ Smith
   \fi
   %%%%%%
   \vspace{\cvSectionSBSep}
-  \ruleline{Interests}%
+  \ruleline{Interessen}%
   \vspace{\cvSectionSBSep}
 }{%
   \cv@interestClose
@@ -2062,7 +2062,7 @@ Dear Miss.\ Smith
 %    \begin{macrocode}
 \NewDocumentEnvironment{cvProjects}{}{%
   \vspace{\cvSectionSBSep}
-  \ruleline{Projects}%
+  \ruleline{Projekte}%
   \vspace{\cvSectionSBSep}
   \cv@definecvProject
   \begin{tikzpicture}[every node/.style={inner sep=0cm,outer sep=0cm}]
@@ -2089,7 +2089,7 @@ Dear Miss.\ Smith
     \stepcounter{cv@languages}
   }%
   \vspace{\cvSectionSBSep}
-  \ruleline{Languages}%
+  \ruleline{Sprachen}%
   \vspace{\cvSectionSBSep}
   \begin{tikzpicture}[%
     every node/.style={text depth=0pt,inner sep=0pt,outer sep=0pt}]
